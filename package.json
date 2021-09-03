@@ -1,0 +1,26 @@
+{
+    "name": "bs4snippets",
+    "displayName": "bs4snippets",
+    "description": "Bootstrap 5 Snippets",
+    "version": "1.0.0",
+    "publisher": "izyanz",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/izyanzz/bs4snippets"
+    },
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "icon": "icons.png",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
